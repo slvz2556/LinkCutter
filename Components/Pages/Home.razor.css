@@ -1,0 +1,180 @@
+﻿.div-search{
+    position:relative;
+    width:100%;
+    height:100px;
+    margin-top:100px;
+    display:grid;
+}
+.div-search-bar {
+    position: relative;
+    height: 40px;
+    width: calc(100% - 20px);
+    max-width: 450px;
+    border-radius: 25px;
+    background-color: var(--card-color);
+    box-shadow: var(--card-shadow);
+    overflow: hidden;
+    justify-self: center;
+    align-content: center;
+    display: inline-block;
+}
+.div-search-bar input{
+    height:100%;
+    position:relative;
+    float:left;
+    width:calc(100% - 50px);
+    margin-left:10px;
+    border:none;
+    font-family: var(--font-light);
+    font-size: var(--font-light-size);
+    color: var(--font-light-color);
+}
+.div-search-bar svg{
+    position:relative;
+    float:right;
+    height:25px;
+    width:25px;
+    margin-right:15px;
+    margin-top:7.5px;
+    fill:var(--font-light-color);
+}
+
+
+
+
+
+.div-add
+{
+    position:fixed;
+    height:50px;
+    width:50px;
+    z-index:5;
+    top:100%;
+    left:100%;
+    cursor:pointer;
+    margin-left:-75px;
+    margin-top:-75px;
+    border-radius:50%;
+    background-color:var(--primary-color);
+    box-shadow:0px 0px 5px #9f9f9f;
+    display:grid;
+}
+.div-add b{
+    position:relative;
+    justify-self:center;
+    align-self:center;
+    font-family:var(--font-bold);
+    color:var(--primary-text-color);
+    font-size:18pt;
+}
+.div-add:hover{
+    background-color:var(--primary-hover);
+}
+.div-add:active{
+    background-color:var(--primary-active);
+    transform:scale(.95);
+}
+
+
+.div-body {
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    margin-bottom: 50px;
+    position: relative;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 50%));
+    display: grid;
+    justify-content: space-evenly;
+}
+@media screen and (max-width:1000px) {
+    .div-body {
+        grid-template-columns: repeat(auto-fit, minmax(100%, 100%));
+    }
+}
+.div-item {
+    width: calc(100% - 30px);
+    margin: 15px;
+    backdrop-filter: blur(6px);
+    background-color: var(--card-color);
+    box-shadow: var(--card-shadow);
+    border-radius: 10px;
+    position: relative;
+    display: inline-block;
+}
+.div-item .div-head{
+    height:40px;
+    width:calc(100% - 20px);
+    margin:10px 10px 5px 10px;
+    position:relative;
+    float:left;
+    display:inline-block;
+}
+.div-item .div-head h1{
+    width:fit-content;
+    height:40px;
+    position:relative;
+    display:grid;
+    justify-content:center;
+    align-content:center;
+    float:left;
+    user-select: text; 
+    font-family:var(--font-light);
+    color:var(--font-bold-color);
+    font-size:var(--font-light-size);
+}
+.div-item p {
+    position: relative;
+    width: calc(100% - 20px);
+    left: 10px;
+    float:left;
+    margin-top: 5px;
+    font-family: var(--font-light);
+    font-size: var(--font-light-size);
+    color: var(--font-light-color); 
+}
+.txt-input {
+    position: relative;
+    width: calc(100% - 20px);
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 3px;
+    border: none;
+    background-color: var(--input-color);
+    margin-bottom: 10px;
+    height: 35px;
+    font-family: var(--font-bold);
+    font-size: var(--font-light-size);
+    color: var(--font-light-color);
+}
+.div-item img{
+    position:relative;
+    width:80px;
+    margin:10px;
+    margin-bottom:0;
+}
+
+
+.div-button svg {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    justify-self: center;
+    align-self: center;
+}
+.div-button {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
+    margin-right: 5px;
+    display: grid;
+}
+.div-button:hover{
+    background-color:var(--btn-hover-color);
+}
+.div-button:active{
+    transform:scale(.95);
+    background-color:var(--btn-hover-color);
+}

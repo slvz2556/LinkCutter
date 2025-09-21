@@ -1,0 +1,49 @@
+﻿@font-face {
+    font-family: 'bold';
+    src: url('../Fonts/Lato-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'light';
+    src: url('../Fonts/Lato-Light.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    outline: none;
+    transition: .4s;
+    scroll-behavior:smooth;
+}
+
+
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+
+:root {
+    --primary-color: #7644b3;
+    --primary-text-color: #fff;
+    --primary-hover: #874dce;
+    --primary-active: #9153de;
+
+    --font-bold-size: 12pt;
+    --font-light-size: 10pt;
+
+    --font-bold: 'bold';
+    --font-light: 'light';
+
+    --font-bold-color: #000000;
+    --font-light-color: #242424;
+    
+     --card-color: #fff;
+     --card-shadow: 0px 1px 15px #d7d7d7;
+
+     --input-color:#eeeeee;
+
+     --btn-hover-color:#e3e3e3;
+}
