@@ -35,21 +35,18 @@ Each time someone clicks on a shortened link, the system automatically counts th
    cd LinkCutter
 
 
-
 2. **Run the project**
   ```bash
   dotnet run
 
 
 ```
----
 
 3. **Open your browser and navigate to**
   ```bash
   https://localhost:5000
 
 ```
----
 
 ### Tech Stack
 
