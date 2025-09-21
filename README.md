@@ -32,8 +32,7 @@ Each time someone clicks on a shortened link, the system automatically counts th
    git clone https://github.com/slvz2556/LinkCutter.git
    cd link-cutter
 
-```
----
+
 
 2. **Run the project**
   ```bash
