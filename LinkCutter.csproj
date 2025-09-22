@@ -11,19 +11,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="SLVZ.Hybrid.Cryptography">
-      <HintPath>Libraries\SLVZ.Hybrid.Cryptography.dll</HintPath>
-    </Reference>
-    <Reference Include="SLVZDB">
-      <HintPath>Libraries\SLVZDB.dll</HintPath>
-    </Reference>
-    <Reference Include="SLVZLicense">
-      <HintPath>..\..\..\..\OneDrive\SLVZ\SLVZLicense\bin\Release\net9.0\SLVZLicense.dll</HintPath>
-    </Reference>
+    <Folder Include="wwwroot\Images\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\Images\" />
+    <Reference Include="SLVZDB">
+      <HintPath>Libraries\SLVZDB.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
